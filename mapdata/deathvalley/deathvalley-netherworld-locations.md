@@ -27,11 +27,17 @@ NetherPortal, 81, -207, Portal to NW new spot y:9, Willoughby
 
 ### World objects ###
 
-NetherFortress, 283, 43, Nether Fortress west boundary y:53, Cevous
-NetherFortress, 352, 113, Nether Fortress east boundary y:53, Cevous
-NetherFortress, 332, 132, Nether Fortress south boundary y:66, Cevous
-NetherFortress, 347, 42, Nether Fortress north boundary y:53, Cevous
-Dragon, 364, 151, Blaze spawner y:75, Cevous
+NetherFortress, 283, 43, Nether Fortress 1 west boundary y:53, Cevous
+NetherFortress, 352, 113, Nether Fortress 1 east boundary y:53, Cevous
+NetherFortress, 332, 132, Nether Fortress 1 south boundary y:66, Cevous
+NetherFortress, 347, 42, Nether Fortress 1 north boundary y:53, Cevous
+Dragon, 316, 151, Blaze spawner y:75, Cevous
+Dragon, 364, 123, Blaze spawner y:69, Cevous
+
+NetherFortress, 570, 189, Nether Fortress 2 west boundary y:67, Cevous
+NetherFortress, 736, 189, Nether Fortress 2 east boundary y:67, Cevous
+NetherFortress, 600, 162, Nether Fortress 2 north boundary y:67, Cevous
+Dragon, 651, 49, Blaze spawner y:71, Cevous
 
 
 > Written with [StackEdit](https://stackedit.io/).
