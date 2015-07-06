@@ -40,6 +40,10 @@ PlayerStructure, 970, -328, Bolthole y:77, Willoughby, , 42
 PlayerStructure, 1907, -583, Beach House w Tunnel Access, Willoughby,  , 42
 PlayerStructure, 2752, 217, Bolthole y:62, Willoughby, , 42
 
+
+PlayerStructure, 1074, -4048, Safe house y:86, Cevous
+
+
 Label, 583, 957, Stronghold, Teal, , 20
 
 PlayerHouse, -547, 319, Mushroof house y:74, Teal
@@ -65,12 +69,15 @@ Spawn, 3458, 194, "Swamp", Willoughby, , 41
 Spawn, 3683, -220, Forest, Willoughby, , 28
 Spawn, 4183, -131, "Roofed Forest", Willoughby, , 27
 Spawn, 4727, 48, "Sunflower Plains", Willoughby, , 41
+Spawn, 991,  -2900, "Desert y:66", "Cevous", , 41
 
 
 
 ### Villages ###
 Village, 1128, 670, "Plains Village", "Cevous"
 Village, 1846, -1425, "Plains Village", "Cevous"
+Village, 807, -3983, "Plains Village", "Cevous"
+Village, 175, -1425, Guardian Temple approx location, AmericanCanine
 
 ## Animals ###
 Wolf, 1932, -1457, "Wolves sighted", "Cevous"
