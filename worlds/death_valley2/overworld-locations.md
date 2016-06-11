@@ -22,7 +22,7 @@ In order to provide some order within group, please order locations West to East
 ### Player constructs ###
 
 #### Cevous
-PlayerFarm, 125, 253, Wheat, pumpkin y:9; carrot, potato y:5 Farm, Cevous
+PlayerFarm, 125, 253, "Wheat, pumpkin y:9; carrot, potato y:5 Farm", Cevous
 PlayerHouse, 137, 259, Cevous spawn base y:64, Cevous
 NetherPortal, 154, 250, Nether Portal y:5, Cevous
 PlayerStructure, -4862, 258, Skelly Spawner y:11, Cevous, , 43
