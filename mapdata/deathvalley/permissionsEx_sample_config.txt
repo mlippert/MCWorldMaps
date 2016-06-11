@@ -1,0 +1,93 @@
+groups:
+  Default:
+    default: true
+    prefix: '[Transient]'
+    suffix: ''
+    permissions:
+    - modifyworld.*
+    - modifyworld.items.pickup.*
+    - modifyworld.items.take.*
+    - creativegates.use
+    - permissions.manage.membership.Member
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.help
+    - essentials.help.[pluginname]
+    - essentials.help.[pluginname].[command]
+    - essentials.helpop
+    - essentials.list
+    - essentials.rules
+    - essentials.signs.use.*
+  Member:
+    default: false
+    prefix: '[Adventurer]'
+    suffix: ''
+    permissions:
+    - bukkit.command.tell
+    - bukkit.command.help
+    - bukkit.command.list
+    - - bukkit.command.version
+    - - bukkit.command.plugins
+    - lockette.create.*
+    - craftbook.mech.bridge
+    - craftbook.mech.bridge.use
+    - craftbook.mech.bridge.restock
+    - craftbook.bookshelf.use
+    - craftbook.chair.use
+    - craftbook.mech.door
+    - craftbook.mech.door.use
+    - craftbook.mech.gate
+    - craftbook.mech.dgate
+    - craftbook.mech.gate.use
+    - craftbook.mech.gate.restock
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.pay
+    - essentials.clearinventory
+    - essentials.compass
+    - essentials.depth
+    - essentials.getpos
+    - essentials.ignore
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.motd
+    - essentials.msg
+    - essentials.near
+    - essentials.recipe
+    - essentials.rules
+    - essentials.seen
+    - essential.suicide
+    - essentials.spawn
+    - essentials.delhome
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.question
+    - essentials.shout
+    - essentials.chat.url
+    - essentials.signs.break.trade
+    - essentials.signs.break.protection
+    - essentials.signs.create.trade
+    - essentials.signs.create.protection
+    - protectionstones.create
+    - protectionstones.destroy
+    - protectionstones.view
+    - protectionstones.hide
+    - protectionstones.unhide
+    - protectionstones.owners
+    - protectionstones.members
+    - protectionstones.flags
+    - modifyworld.*
+    - announcer.reciever
+    - factions.kit.fullplayer
+    - - mcmmo.commands.ptp
+    - - mcmmo.commands.ptp.accept
+    - - mcmmo.commands.ptp.acceptall
+    - - mcmmo.commands.ptp.toggle
+    - - worldedit.*
+    - - worldguard.*
+    inheritance:
+    - Default
