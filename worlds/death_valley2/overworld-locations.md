@@ -1,7 +1,7 @@
 # Death Valley 2 Map #
 
-[View the map][dv2map]
-[View the netherworld map][dv2nethermap]
+[View the map][dv2-world-map]
+[View the netherworld map][dv2-nether-map]
 
 ## Settings ##
 
@@ -32,5 +32,6 @@ In order to provide some order within group, please order locations West to East
 
 
 
-[grootmap]: <https://71a6d35cb5b47bf734e8f62f06cdded5ab2489c1.googledrive.com/host/0B35KCzsTLKY1dTJreWVWdzNNa28/index.html?src=https%3A%2F%2Fraw.githubusercontent.com%2Fmlippert%2FMCWorldMaps%2Fmaster%2Fmapdata%2Fgroot%2Fgroot-overworld-locations.md&oceangooglesrc=0B-v0KuPumJDLbThCbWRoSXB5S2M> "Groot Minecraft Explorer's Map"
-[grootnethermap]: <> "Groot Netherworld Minecraft Explorer's Map"
+
+[dv2-world-map]: <https://71a6d35cb5b47bf734e8f62f06cdded5ab2489c1.googledrive.com/host/0B35KCzsTLKY1dTJreWVWdzNNa28/index.html?src=https%3A%2F%2Fraw.githubusercontent.com%2Fmlippert%2FMCWorldMaps%2Fgh-pages%2Fworlds%2Fdeath_valley2%2Foverworld-locations.md&oceangooglesrc=0B-v0KuPumJDLRUhqbV83WnhMamc> "Death Valley 2 Minecraft Explorer's Map"
+[dv2-nether-map]: <https://71a6d35cb5b47bf734e8f62f06cdded5ab2489c1.googledrive.com/host/0B35KCzsTLKY1dTJreWVWdzNNa28/index.html?src=https%3A%2F%2Fraw.githubusercontent.com%2Fmlippert%2FMCWorldMaps%2Fgh-pages%2Fworlds%2Fdeath_valley2%2Fnetherworld-locations.md> "Death Valley 2 Netherworld Minecraft Explorer's Map"
