@@ -7,7 +7,7 @@
 
 ```
 title = Map of Death Valley 2 Overworld
-range = 5200
+range = 5600
 showcoordinates = true
 hidelabelsabove = 1
 showlabelsbelow = 4
@@ -26,6 +26,7 @@ PlayerFarm, 125, 253, Wheat, pumpkin y:9; carrot, potato y:5 Farm, Cevous
 PlayerHouse, 137, 259, Cevous spawn base y:64, Cevous
 NetherPortal, 154, 250, Nether Portal y:5, Cevous
 PlayerStructure, -4862, 258, Skelly Spawner y:11, Cevous, , 43
+PlayerMachine, -4839, 378, Chicken Cooker y:97, Cevous
 NetherPortal, -4870, 294, Nether Portal y:5, Cevous
 
 
