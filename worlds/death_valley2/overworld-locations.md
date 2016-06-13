@@ -44,6 +44,7 @@ PlayerStructure, 838, -38, Sheep of many colors barn y:64, Teal
 PlayerStructure, 844, -114, Brewery y:79, Teal
 NetherPortal, 854, -93, Nether Portal y:68, Teal
 PlayerHouse, 2925, -1757, Teal's Ice Tavern home y:?, Teal
+NetherPortal, 2813, -1261, Nether Portal y:?, Teal
 
 #### Elkadisu
 

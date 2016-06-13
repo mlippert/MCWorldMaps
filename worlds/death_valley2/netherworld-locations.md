@@ -20,6 +20,7 @@ minecraft_world_version = 1.10
 
 ### Player constructs ###
 
+NetherPortal, 357, -157, Nether Portal y:51, Teal
 
 ### World objects ###
 
