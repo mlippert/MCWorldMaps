@@ -55,6 +55,9 @@ NetherPortal, 2813, -1261, Nether Portal y:?, Teal
 ### Villages, Temples etc. ###
 Label, 2831, -1267, Igloo y:?, Teal,,42
 Village, 2636, 359, "Plains Village", Teal
+Village, 53, 1853, "Plains Village y:70", WilloughbyChase
+Village, 5, 2200, "Desert Village y:65", Cevous
+Label, 138, 2298, Desert Temple y:65, Cevous,,42
 
 
 ## Animals ###
