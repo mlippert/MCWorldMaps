@@ -13,50 +13,48 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
     <script type="text/javascript">
-      var worlds =
+      let worlds =
         [
           {
             worldName: 'death_valley2',
-            displayName: 'Death Valley 2',
-            googleOceanMask: '0B-v0KuPumJDLRUhqbV83WnhMamc'
+            displayName: 'Death Valley 2'
           },
           {
             worldName: 'groot',
-            displayName: 'Groot',
-            googleOceanMask: '0B-v0KuPumJDLbThCbWRoSXB5S2M'
+            displayName: 'Groot'
           },
           {
             worldName: 'death_valley',
-            displayName: 'Death Valley',
-            googleOceanMask: '0B-v0KuPumJDLT09PZkVRd2ttWFU'
+            displayName: 'Death Valley'
           },
         ];
 
-      var inkAndParchmentMapUrl = 'minecraft-map/index.html';
+      let inkAndParchmentMapUrl = 'minecraft-map/index.html';
 
-      var setMapLinks = function ()
+      let setMapLinks = function ()
       {
         worlds.forEach(world =>
           {
             window.console.log('world: ' + world.worldName);
-            var worldDivSelector = `div.world[data-worldname="${world.worldName}"]`;
+            let worldDivSelector = `div.world[data-worldname="${world.worldName}"]`;
 
-            var worldDiv = $(worldDivSelector);
+            let worldDiv = $(worldDivSelector);
             if (worldDiv.length === 0)
             {
               window.console.error(`couldn\'t find world div element (selector: '${worldDivSelector}')`);
               return;
             }
 
-            var overworldSrcUrl = `https://raw.githubusercontent.com/mlippert/MCWorldMaps/gh-pages/worlds/${world.worldName}/overworld-locations.md`;
-            var netherworldSrcUrl = `https://raw.githubusercontent.com/mlippert/MCWorldMaps/gh-pages/worlds/${world.worldName}/netherworld-locations.md`;
+            let overworldSrcUrl = `https://raw.githubusercontent.com/mlippert/MCWorldMaps/gh-pages/worlds/${world.worldName}/overworld-locations.md`;
+            let netherworldSrcUrl = `https://raw.githubusercontent.com/mlippert/MCWorldMaps/gh-pages/worlds/${world.worldName}/netherworld-locations.md`;
+            let oceanMaskUrl = `../worlds/${world.worldName}/ocean_mask.png`;
 
             worldDiv.html(
               `<h4 class="header-level-4">
                  <a id="${world.worldName}" class="anchor" href="#${world.worldName}" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>${world.displayName}</h4>
                <ul>
                  <li>
-                   <a href="${inkAndParchmentMapUrl}?src=${encodeURIComponent(overworldSrcUrl)}&oceangooglesrc=${world.googleOceanMask}"
+                 <a href="${inkAndParchmentMapUrl}?src=${encodeURIComponent(overworldSrcUrl)}&oceansrc=${encodeURIComponent(oceanMaskUrl)}"
                       title="${world.displayName} Minecraft Explorer's Map">Overworld Map</a>
                  </li>
                  <li>
