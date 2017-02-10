@@ -32,8 +32,8 @@
           },
         ];
 
-      var inkAndParchmentMapUrl = 'https://71a6d35cb5b47bf734e8f62f06cdded5ab2489c1.googledrive.com/host/0B35KCzsTLKY1dTJreWVWdzNNa28/index.html';
-      
+      var inkAndParchmentMapUrl = 'minecraft-map/index.html';
+
       var setMapLinks = function ()
       {
         worlds.forEach(world =>
@@ -47,10 +47,10 @@
               window.console.error(`couldn\'t find world div element (selector: '${worldDivSelector}')`);
               return;
             }
-                
+
             var overworldSrcUrl = `https://raw.githubusercontent.com/mlippert/MCWorldMaps/gh-pages/worlds/${world.worldName}/overworld-locations.md`;
             var netherworldSrcUrl = `https://raw.githubusercontent.com/mlippert/MCWorldMaps/gh-pages/worlds/${world.worldName}/netherworld-locations.md`;
-              
+
             worldDiv.html(
               `<h4 class="header-level-4">
                  <a id="${world.worldName}" class="anchor" href="#${world.worldName}" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>${world.displayName}</h4>
@@ -143,6 +143,6 @@
 
     </div>
 
-    
+
   </body>
 </html>
