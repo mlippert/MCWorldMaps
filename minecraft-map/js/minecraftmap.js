@@ -368,7 +368,7 @@ var MinecraftMap;
                 }
             }
             if ('oceansrc' in locationInfo.params && MinecraftMap.isString(locationInfo.params.oceansrc)) {
-                this.OceanMapUri = locationInfo.params.oceansrc;
+                this.OceanMapUri = decodeURIComponent(locationInfo.params.oceansrc);
             }
             if ('oceangooglesrc' in locationInfo.params && MinecraftMap.isString(locationInfo.params.oceangooglesrc)) {
                 if (locationInfo.params.oceangooglesrc.toLowerCase().indexOf('http') == 0) {
