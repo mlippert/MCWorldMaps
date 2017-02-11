@@ -19,11 +19,12 @@ world_seed = -6815645609592165386
 In order to provide some order within group, please order locations West to East (increasing X)
 
 ### Player constructs ###
-NetherPortal    ,351  , 494 , "NetherPortal y:20", Willoughby
-Label           ,352   , 527   , "Skelly Spawner y:21", Willoughby, , 8
-Label           ,1136  , 470   , "Treehouse door y:70", Willoughby, , 23
-NetherPortal    ,2940  , -2856 , "NetherPortal y:11", Willoughby
-PlayerCastle    ,2957  , -2858 , "Willoughby Mountain Entry y:78", Willoughby, , 9
+NetherPortal    ,351   , 494   , "Willough Skell Drop y:20", 
+Label           ,352   , 527   , "Skell Drop y:21", , , 8
+NetherPortal    ,938   , 442   , "Willough Farm y:11",
+Label           ,1136  , 470   , "Willough Treehouse door y:70", , , 23
+NetherPortal    ,2940  , -2856 , "Willough Mountain y:11", 
+PlayerCastle    ,2957  , -2858 , "Willough Mountain Entry y:78", , , 9
 
 
 
