@@ -19,11 +19,11 @@ world_seed = -6815645609592165386
 In order to provide some order within group, please order locations West to East (increasing X)
 
 ### Player constructs ###
-NetherPortal    ,351   , 494   , "Willough Skell Drop y:20", 
+NetherPortal    ,351   , 494   , "Willough Skell Drop NP y:20", 
 Label           ,352   , 527   , "Skell Drop y:21", , , 8
-NetherPortal    ,938   , 442   , "Willough Farm y:11",
+NetherPortal    ,938   , 442   , "Willough Farm NP y:11",
 Label           ,1136  , 470   , "Willough Treehouse door y:70", , , 23
-NetherPortal    ,2940  , -2856 , "Willough Mountain y:11", 
+NetherPortal    ,2940  , -2856 , "Willough Mountain NP y:11", 
 PlayerCastle    ,2957  , -2858 , "Willough Mountain Entry y:78", , , 9
 
 
