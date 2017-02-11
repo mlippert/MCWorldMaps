@@ -18,9 +18,14 @@ world_seed = -6815645609592165386
 [type, x, z, description, owner (discoverer), href, icon index
 
 ### Player constructs ###
+NetherPortal    ,38  , 61    , "NetherPortal y:37", Willoughby Skelly Spawner
+NetherPortal    ,116 , 40  , "NetherPortal y:57", Willoughby Farm & Paddock
+NetherPortal    ,376 , -359  , "NetherPortal y:25", Willoughby Mountain
 
 
 ### World objects ###
+Label           ,363 , -331  , "Blaze Spawner y:61", 
+NetherFortress  ,363 , -275  , "Nether Fortress y:61", 
 
 
 
