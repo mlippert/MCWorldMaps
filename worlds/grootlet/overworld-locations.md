@@ -21,12 +21,9 @@ In order to provide some order within group, please order locations West to East
 ### Player constructs ###
 NetherPortal    ,351   , 494   , "Willough Skell Drop NP y:20", 
 Label           ,352   , 527   , "Skell Drop y:21", , , 8
-PlayerFarm      ,905   , 444   , "Willough Farms Cow Paddock", , , 17
-PlayerFarm      ,910   , 460   , "Willough Farms Produce", , , 14
-PlayerFarm      ,910   , 470   , "Willough Farms Pumpkins", , , 19
-PlayerFarm      ,920   , 444   , "Willough Farms Sheep Paddock", , , 18
+PlayerFarm      ,900   , 470   , "Willough Farm & Paddock", , , 17
 NetherPortal    ,938   , 442   , "Willough Farm NP y:11",
-Label           ,1136  , 470   , "Willough Treehouse door y:70", , , 23
+Label           ,1136  , 470   , "Willough Treehouse y:70", , , 23
 NetherPortal    ,2940  , -2856 , "Willough Mountain NP y:11", 
 PlayerCastle    ,2957  , -2858 , "Willough Mountain Entry y:78", , , 9
 
