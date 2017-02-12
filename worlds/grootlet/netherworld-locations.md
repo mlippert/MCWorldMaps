@@ -18,6 +18,8 @@ world_seed = -6815645609592165386
 [type, x, z, description, owner (discoverer), href, icon index
 
 ### Player constructs ###
+NetherPortal    ,4  , 60    , "NetherPortal y:30", to Cevous ??
+NetherPortal    ,25  , 38    , "NetherPortal y:51", to Cevous First Base
 NetherPortal    ,38  , 61    , "NetherPortal y:37", to Willough Skelly Spawner
 NetherPortal    ,116 , 40  , "NetherPortal y:57", to Willough Farm & Paddock
 NetherPortal    ,376 , -359  , "NetherPortal y:25", to Willough Mountain
