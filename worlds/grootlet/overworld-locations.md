@@ -24,6 +24,8 @@ Label           ,352   , 527   , "Skell Drop y:21", , , 8
 PlayerFarm      ,900   , 470   , "Willough Farm & Paddock", , , 17
 NetherPortal    ,938   , 442   , "Willough Farm NP y:11",
 Label           ,1136  , 470   , "Willough Treehouse y:70", , , 23
+NetherPortal    ,2646  , -7505 , "NP y:11",
+NetherPortal    ,2782  , -7374 , "NP y:46",
 NetherPortal    ,2940  , -2856 , "Willough Mountain NP y:11", 
 PlayerCastle    ,2957  , -2858 , "Willough Mountain Entry y:78", , , 9
 
