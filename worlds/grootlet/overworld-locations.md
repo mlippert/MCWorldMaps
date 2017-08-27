@@ -7,7 +7,7 @@
 
 ```
 title = Map of Grootlet Overworld
-range = 5200
+range = 9600
 showcoordinates = true
 hidelabelsabove = 1
 showlabelsbelow = 4
@@ -43,6 +43,7 @@ Village         ,1202  , -626  , Sand Village,
 Village         ,1733  , -1429 , Plains Village, 
 Village         ,2424  , -1746 , Plains Village, 
 Label           ,2470  , -2787 , Guardian Temple, , , 46
+Village         ,2703  , -8477 , Plains Village, 
 
 
 ## Animals ###
