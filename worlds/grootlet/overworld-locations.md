@@ -7,7 +7,7 @@
 
 ```
 title = Map of Grootlet Overworld
-range = 9600
+range = 20480
 showcoordinates = true
 hidelabelsabove = 1
 showlabelsbelow = 4
