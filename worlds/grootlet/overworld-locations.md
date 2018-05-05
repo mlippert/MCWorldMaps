@@ -19,6 +19,7 @@ world_seed = -6815645609592165386
 In order to provide some order within group, please order locations West to East (increasing X)
 
 ### Player constructs ###
+NetherPortal    ,-696   , 2000      , "Willough Mega Taiga Aerie NP y:11",
 PlayerStructure ,-7     , -10037    , "Willough North y:79",
 NetherPortal    ,71     , -20022    , "Willough Zombie Drop NP y:26",
 NetherPortal    ,351    , 494       , "Willough Skell Drop NP y:20",
@@ -26,6 +27,7 @@ Label           ,352    , 527       , "Skell Drop y:21", , , 8
 PlayerFarm      ,900    , 470       , "Willough Farm & Paddock", , , 17
 NetherPortal    ,938    , 442       , "Willough Farm NP y:11",
 Label           ,1136   , 470       , "Willough Treehouse y:70", , , 23
+NetherPortal    ,2253   , -9265     , "Willough Ice Spike Aerie NP y:11", 
 NetherPortal    ,2505   , -12006    , "NP y:11",
 Label           ,2639   , -16277    , "Jungle Tree House y:87", , , 42
 NetherPortal    ,2641   , -16298    , "NP y:11",
@@ -39,12 +41,26 @@ PlayerCastle    ,2957   , -2858     , "Willough Mountain Entry y:78", , , 9
 
 
 ### Biomes ###
+Label           ,-1050  , 800       , Plains, Willoughby, , 41
+Label           ,-1000  , 970       , Forest, Willoughby, , 41
+Label           ,-1000  , 1000      , ForestHills, Willoughby, , 41
+Label           ,-1000  , 1200      , Extreme Hills, Willoughby, , 41
+Label           ,-1000  , 1400      , Extreme Hills+, Willoughby, , 41
+Label           ,-950   , 550       , Flower Forest, Willoughby, , 41
+Label           ,-650   , 400       , Extreme Hills, Willoughby, , 41
+Label           ,-650   , 1980      , Mega Spruce Taiga, Willoughby, , 41
+Label           ,-630   , 250       , Stone Beach, Willoughby, , 41
+Label           ,-560   , 2080      , Mega Taiga Hills, Willoughby, , 41
+Label           ,-500   , 100       , Extreme Hills+, Willoughby, , 41
+Label           ,100    , 300       , Jungle, Willoughby, , 41
 Label           ,35     , -20000    , Savanna Plateau, , 41
 MushroomIsland  ,743    , 39        , "ShroomIsle", Elkadisu, , 29
-Label           ,1533   , -1180     , Taiga, Willoughby, , 28
+Label           ,1533   , -1180     , Taiga, Willoughby, , 41
+Label           ,2100   , -9100     , Ice Plains, Willoughby, , 41
+Label           ,2200   , -9200     , Ice Plains Spikes, Willoughby, , 41
 Label           ,2639   , -16000    , Jungle, Willoughby, , 41
 Label           ,2822   , -19800    , Plains, Willoughby, , 41
-Label           ,3000   , -20100    , Roofed Forest, Willoughby, , 27
+Label           ,3000   , -20100    , Roofed Forest, Willoughby, , 41
 Label           ,3013   , -19600    , Desert, Willoughby, , 41
 
 
